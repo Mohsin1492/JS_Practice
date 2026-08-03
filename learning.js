@@ -50,4 +50,22 @@ const objs = {...obj1, ...obj2, ...obj3}
 
 
 let userArr = Object.keys(myUser)
-console.log(userArr);
+// console.log(userArr);
+
+
+const course = {
+    courseName: "JS",
+    courseInstructor: "Hitesh",
+    coursePrice: "999"
+}
+
+const {courseName, courseInstructor, coursePrice} = course
+// console.log(courseName);
+// console.log(courseInstructor);
+// console.log(coursePrice);
+
+
+const {courseName : name, courseInstructor : instructor, coursePrice : price} = course
+// console.log(name);
+// console.log(instructor);
+// console.log(price);
