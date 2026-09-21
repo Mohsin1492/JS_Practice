@@ -111,3 +111,138 @@
 //     }
 // }
 // console.log(loggedInUserMessage());
+
+
+// function calculatePrice(...num){
+//     return num
+// }
+// console.log(calculatePrice(100, 200, 300));
+
+
+// const user1 = {
+//     username : "Mohsin",
+//     price : 399
+// }
+// const user2 = {
+//     username : "Ali",
+//     price : 199
+// }
+// function handleObject(anyObject){
+//     console.log(`Username is ${anyObject.username} and the price is ${anyObject.price}`);
+// }
+// handleObject(user2);
+
+
+// const newArray = [100, 200, 300, 400]
+// function returnSecondValue(getArray){
+//     return getArray[1]
+// }
+// console.log(returnSecondValue(newArray));
+
+
+// function parent (){
+//     const username = "Mohsin";
+
+//     function child(){
+//         const age = 20;
+//         console.log(username);
+//         console.log(age);
+//     }
+//     child()
+// }
+// parent()
+
+
+// const user = {
+//     username: "Mohsin",
+//     message: function(){
+//         console.log(`${this.username}, Welcome !!`);
+//     }
+// }
+// user.message();
+
+
+// function arrow(){
+//     let username = "Mohsin"
+//     console.log(this.username);
+//     console.log(this);
+// }
+
+
+// const arrow = function(){
+//     let username = "Mohsin"
+//     console.log(this.username);
+//     console.log(this);
+// }
+
+
+// const arrow = () => {
+//     let username = "Mohsin"
+//     console.log(this.username);
+//     console.log(this);
+// }
+// arrow()
+
+
+// // IIFEs are used to avoid pollution of global scope
+// (function chai(){
+//     console.log("Hello");
+// })();
+
+// ( ()=>{
+//     console.log("Hello, World!");
+// } )();
+
+// ( (name)=>{
+//     console.log(`Hello, ${name}`);
+// } )('Mohsin');
+
+
+// const month = 3;
+// switch (month) {
+//     case 1:
+//         console.log("January");
+//         break;
+//     case 2:
+//         console.log("February");
+//         break;
+//     case 3:
+//         console.log("March");
+//         break;
+//     default:
+//         break;
+// }
+
+
+
+// // To find an Array is empty or not
+// const userArr = []
+// if(userArr.length === 0){
+//     console.log("User is empty");
+// }
+
+
+// // To find an Object is empty or not
+// const emptyObj = {}
+// if(Object.keys(emptyObj).length === 0){
+//     console.log("Object is Empty");
+// }
+
+
+// // || is the Logical OR operator in JavaScript. But there is an important detail: when used in an expression, || returns the first truthy value.
+// let uname = "" || "Guest";
+// console.log(uname);
+// // Because "" is falsy, JavaScript uses "Guest".
+
+
+// // The nullish coalescing operator ?? is used to provide a default value when the left side is null or undefined. 
+// username = null;
+// let name = username ?? "Guest";
+// console.log(name);
+
+
+// // Ternary Operator
+// let age = 18
+// age >= 18 ? console.log("Greater or equal to 18") : console.log("Less than 18");
+
+
