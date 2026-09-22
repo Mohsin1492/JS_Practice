@@ -246,3 +246,50 @@
 // age >= 18 ? console.log("Greater or equal to 18") : console.log("Less than 18");
 
 
+// for (let i = 0; i < 11; i++) {
+//     let element = i;
+//     console.log(element);
+// }
+
+
+// let num = 7;
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`${num} x ${i} = ${num * i}`);
+// }
+
+
+// for(let i = 1; i <= 5; i++){
+//     console.log(`Table of ${i} :`);
+//     for(let j = 1; j <= 10; j++){
+//         console.log(`${i} x ${j} = ${i * j}`);
+//     }
+// }
+
+
+
+// let myArr = ['Python', 'Javascript', 'Dart']
+// for (let index = 0; index < myArr.length; index++) {
+    //     const element = myArr[index];
+    //     console.log(element);
+    // }
+    
+    
+    
+    // let num = 0
+    // while(num <= 20){
+//     console.log(`number is : ${num}`);
+//     num = num + 10
+// }
+
+
+
+
+// let myArr = ['Python', 'Javascript', 'Dart']
+// let i = 0
+// while(i < myArr.length){
+//     console.log(myArr[i]);
+//     i = i + 1
+// }
+
+
+
