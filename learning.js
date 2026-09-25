@@ -299,3 +299,12 @@
 // for (const val of myArr) {
 //     console.log(`val : ${val}`);
 // }
+
+
+// maps contain unique values
+const map = new Map()
+map.set('PK', 'Pakistan')
+map.set('CH', 'China')
+map.set('IR', 'Iran')
+
+console.log(map);
