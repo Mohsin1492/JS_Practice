@@ -301,10 +301,76 @@
 // }
 
 
-// maps contain unique values
-const map = new Map()
-map.set('PK', 'Pakistan')
-map.set('CH', 'China')
-map.set('IR', 'Iran')
+// // maps contain unique values
+// const map = new Map()
+// map.set('PK', 'Pakistan')
+// map.set('CH', 'China')
+// map.set('IR', 'Iran')
+// console.log(map);
 
-console.log(map);
+// for (const [key, value] of map) {
+//     console.log(`${key} : ${value}`);
+// }
+
+
+// const myobj = {
+//     js: "Javascript",
+//     cpp: "C++",
+//     rb: "Ruby",
+//     py: "Python"
+// }
+// for (const key in myobj) {
+//     console.log(key);
+// }
+
+// for (const key in myobj) {
+//     console.log(`${key} is for ==> ${myobj[key]}`);
+// }
+
+
+
+// const programmingLang = ["Js", "python", "c#"]
+// for (const key in programmingLang) {
+//     console.log(programmingLang[key]);
+// }
+
+
+
+// const coding = ["Javascript", "Python", "C#", "Java"]
+
+// coding.forEach(function (item){
+//     console.log(item);
+// })
+
+// coding.forEach((item)=>{
+//     console.log(item);
+// })
+
+// function printme(item){
+//     console.log(item);
+// }
+// coding.forEach(printme)
+
+// coding.forEach((item, index, arr)=>{
+//     console.log(item, index, arr);
+// })
+
+
+
+// const myCoding = [
+//     {
+//         languageName: "Javascript",
+//         languageExtension: ".js"
+//     },
+//     {
+//         languageName: "Python",
+//         languageExtension: ".py"
+//     },
+//     {
+//         languageName: "Java",
+//         languageExtension: ".java"
+//     },
+// ]
+// myCoding.forEach((item)=>{
+//     console.log(item.languageName);
+// })
