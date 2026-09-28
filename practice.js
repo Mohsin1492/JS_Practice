@@ -110,13 +110,13 @@
 // //   { first: "Bob", last: "Johnson" }
 // // ]Return ["John Doe", "Jane Smith", "Bob Johnson"].
 
-// const names = [
-//   { first: "John", last: "Doe" },
-//   { first: "Jane", last: "Smith" },
-//   { first: "Bob", last: "Johnson" }
-// ]
-// const fullName = names.map((val)=> `${val.first} ${val.last}`)
-// console.log(fullName);
+const names = [
+  { first: "John", last: "Doe" },
+  { first: "Jane", last: "Smith" },
+  { first: "Bob", last: "Johnson" }
+]
+const fullName = names.map((val)=> `${val.first} ${val.last}`)
+console.log(fullName);
 
 
 
