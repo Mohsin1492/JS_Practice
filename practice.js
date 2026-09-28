@@ -117,3 +117,21 @@
 // ]
 // const fullName = names.map((val)=> `${val.first} ${val.last}`)
 // console.log(fullName);
+
+
+
+
+
+
+// // ---------------------------- Reduce ----------------------------
+
+
+
+// Sum of numbers
+// Given [1, 2, 3, 4, 5], calculate the total sum.
+// Count occurrences
+// Given ["apple", "banana", "apple", "orange", "banana", "apple"], return an object that counts how many times each fruit appears:JavaScript{ apple: 3, banana: 2, orange: 1 }
+// Find the maximum
+// Given [23, 45, 12, 67, 34, 89, 5], find the largest number using reduce (don’t use Math.max).
+// Total price of in-stock items
+// Using the products array from question 4, calculate the total price of only the items that are in stock.
