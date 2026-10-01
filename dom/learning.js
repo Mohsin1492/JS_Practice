@@ -46,3 +46,9 @@
 // firstLi.innerText = "First Li"
 
 
+
+// const myUl = document.querySelector('ul')
+// console.log(myUl.firstElementChild)
+// console.log(myUl.lastElementChild)
+
+
