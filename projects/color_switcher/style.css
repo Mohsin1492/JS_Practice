@@ -1,0 +1,11 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background-color: white;}
+.canvas{height:100vh;text-align:center;}
+h1{margin-bottom:50px;}
+.colorBox{margin-bottom:50px;display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap;}
+span{padding:50px;border: 2px solid #000;}
+span#red{background-color:red;}
+span#green{background-color:green;}
+span#blue{background-color:blue;}
+span#yellow{background-color:yellow;}
+span#white{background-color:white;}
