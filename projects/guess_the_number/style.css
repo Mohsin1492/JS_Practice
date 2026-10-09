@@ -1,0 +1,29 @@
+/* style.css */
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:linear-gradient(135deg,#1e3c72 0%,#2a5298 50%,#7e57c2 100%);min-height:100vh;display:flex;justify-content:center;align-items:center;padding:20px;color:#333;}
+#wrapper{background:#ffffff;width:100%;max-width:480px;padding:40px 32px;border-radius:16px;box-shadow:0 20px 40px rgba(0,0,0,0.25);text-align:center;}
+h1{font-size:1.9rem;font-weight:700;color:#1e3c72;margin-bottom:12px;}
+#wrapper > p{color:#555;font-size:1rem;line-height:1.5;margin-bottom:6px;}
+/* Form */
+.form{margin:28px 0 24px;display:flex;flex-direction:column;gap:14px;}
+#guess{font-size:1.05rem;font-weight:600;color:#333;}
+.guessField{padding:14px 16px;font-size:1.15rem;border:2px solid #ddd;border-radius:10px;outline:none;transition:border-color 0.25s ease,box-shadow 0.25s ease;text-align:center;}
+.guessField:focus{border-color:#2a5298;box-shadow:0 0 0 4px rgba(42,82,152,0.2);}
+.guessSubmit{background:linear-gradient(135deg,#2a5298,#1e3c72);color:white;border:none;padding:14px;font-size:1.05rem;font-weight:600;border-radius:10px;cursor:pointer;transition:transform 0.2s ease,box-shadow 0.2s ease,opacity 0.2s;}
+.guessSubmit:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(30,60,114,0.35);}
+.guessSubmit:active{transform:translateY(0);}
+.guessSubmit:disabled{opacity:0.6;cursor:not-allowed;transform:none;box-shadow:none;}
+/* Results section */
+.resultParas{margin-top:10px;padding-top:20px;border-top:1px solid #eee;text-align:left;}
+.resultParas p{font-size:0.98rem;margin-bottom:10px;color:#444;}
+.guesses{font-weight:600;color:#1e3c72;word-break:break-word;}
+.lastResult{font-weight:700;color:#e65100;}
+.lowOrHigh{font-weight:600;font-size:1.05rem !important;margin-top:14px !important;text-align:center;min-height:24px;}
+/* Optional status colors (you can add these classes via JS) */
+.lowOrHigh.too-low{color:#1565c0;}
+.lowOrHigh.too-high{color:#c62828;}
+.lowOrHi.correct{color:#2e7d32;}
+/* Responsive */
+@media (max-width:480px){#wrapper{padding:28px 20px;}
+h1{font-size:1.6rem;}
+}
